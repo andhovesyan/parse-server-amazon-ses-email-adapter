@@ -5,6 +5,8 @@ import co from 'co';
 import fs from 'fs';
 import path from 'path';
 
+require("babel-polyfill");
+
 /**
  * MailAdapter implementation used by the Parse Server to send
  * password reset and email verification emails though AmazonSES
