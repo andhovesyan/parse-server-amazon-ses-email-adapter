@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/ecohealthalliance/parse-server-amazon-ses-email-adapter#readme",
   "dependencies": {
+    "babel-polyfill": "^6.9.1",
     "parse-server": "^2.2.16",
     "amazon-ses-mailer": "^0.2.0",
     "co": "^4.6.0",
@@ -35,7 +36,6 @@
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
-    "babel-polyfill": "^6.9.1",
     "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
     "mocha": "^2.5.3",
